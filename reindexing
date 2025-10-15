@@ -1,0 +1,6 @@
+import pandas as pd
+df.index, df.columns
+S = pd.Series([193,139,69,26],index = ['Nayeema','Jyothika','Indu','Bhargavi'])
+S2 = S.reindex(['Asha','Indu','Bhargavi','Nayeema','Jyothika'])
+print(S)
+print(S2)
